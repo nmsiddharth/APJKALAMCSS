@@ -4,6 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS-BASICS</title>
+
+    <style>
+        h3 { 
+            background-color: gray;
+            color: lightgray;
+            padding: 20px;
+        }
+        #ramesh,#naresh{
+            background-color: skyblue;
+        }
+        #suresh{
+            background-color: brown;
+        }
+        div.cssdemoClass {
+            background-color: brown;
+            padding: 20px;
+            margin:20px;
+            color: white;
+        }
+        [href]{
+            background-color: burlywood;
+            color: white;
+            padding: 20px;
+        }
+        [href="p1.html"]{
+            background-color: aqua;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <h1>How to declare a CSS..?</h1>
@@ -19,6 +48,55 @@
     <h2 style="background-color: aquamarine;color: black;">This is Head tag</h2>
     <h2 style="background-color: aquamarine;color: black;">This is Head tag</h2>
     <h2 style="background-color: aquamarine;color: red;">This is Head tag</h2>
+
+    <hr>
+    <h1>Internal CSS</h1>
+    <hr>
+    <h3>
+        CSS Selector (How to call an element under the style tag):</h3>
+
+        <ol>
+            <li>Using element name</li>
+            <li>Using Element ID</li>
+            <li>Using Class</li>
+            <li>Using Attributes</li>
+            <li>Using Attribute and Its value</li>
+        </ol>
+    <hr>
+
+    <h1>Using Element name example</h1>
+    <hr>
+    <h3>This is Internal CSS Eg</h3>
+    <h3>This is Internal CSS Eg</h3>
+    <h3>This is Internal CSS Eg</h3>
+
+    <hr>
+    <h1>Using Element ID Eg</h1>
+    <h3 id="suresh">This is Internal CSS Eg  </h3>
+    <h3 id="ramesh">This is Internal CSS Eg</h3>
+    <h3 id="naresh">This is Internal CSS Eg </h3>
+    
+    <hr>
+    <h1>Using Class Eg</h1>
+    <section class="cssdemoClass">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dignissimos vero distinctio quas laborum officiis nulla hic, eum id aut adipisci soluta quasi qui nobis necessitatibus perferendis magni aspernatur sequi.</p>
+    </section>
+    <div class="cssdemoClass">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dignissimos vero distinctio quas laborum officiis nulla hic, eum id aut adipisci soluta quasi qui nobis necessitatibus perferendis magni aspernatur sequi.</p>
+    </div>
+    <section class="cssdemoClass">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima dignissimos vero distinctio quas laborum officiis nulla hic, eum id aut adipisci soluta quasi qui nobis necessitatibus perferendis magni aspernatur sequi.</p>
+    </section>
+    <hr>
+    <h1>Using Attribute Eg</h1>
+    <hr>
+    <a href="#">Anchor-1</a>
+
+
+    <hr>
+    <h1>Using Attribute and its Value</h1>
+    <hr>
+    <a href="p1.html">Anchor-2</a>
     
 </body>
 </html>
