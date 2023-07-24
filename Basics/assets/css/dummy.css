@@ -1,0 +1,67 @@
+.sid{
+    background-color: purple;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.hi{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 2;
+    word-spacing: 10px;
+}
+    .hi > p{
+    text-indent: 60px;
+}
+.navbar{
+    background-color: teal;
+
+}
+.navbar > ul{
+    list-style-type : none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+   
+}
+.navbar >ul > li{
+    display: inline-block;
+    padding: 20px;
+}
+.navbar > ul > li:hover{
+    background-color: red;
+}
+.navbar > ul > li> a{
+    color: white;
+    text-decoration: none;
+}
+.navbar > img {
+    height: 54px;
+}
+.navbar>ul>li:hover a{
+    color: yellow;
+}
+.hello >ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+    
+}
+.hello >ol>li>a {
+    color: white;
+    text-decoration: none;
+}
+.hello >ol>li::marker {
+    color: red;
+    font-size: 20px;
+}
+.hello>ol>li {
+    list-style: none inside url(../images/pin.png);
+}

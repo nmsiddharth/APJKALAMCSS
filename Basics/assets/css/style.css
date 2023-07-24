@@ -1,0 +1,104 @@
+/* P6.HTML CODE */
+
+.cssColor1{
+    background-color: #008080;
+
+}
+.cssColor2{
+    background-color: #87CEEB;
+    
+}
+.cssColor3{
+    background-color: rgb(128, 128, 128);
+}
+.commonCssColors{
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+/* p7.html code */
+.jumbotron{
+    background-color: rgb(128, 0, 128);
+    border-radius: 10px;
+}
+.cssFont{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant:small-caps;
+    font-size: 20px;
+}
+/* p8.html code */
+ .cssText{
+    text-decoration: underline;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    text-transform: uppercase;
+    text-align: justify;
+ }
+ .cssText>p{
+    text-indent: 100px;
+ }
+    
+ /* p9.html code */
+ .navBar { 
+    background-color: darkcyan;
+ }
+ .navBar>ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+ }
+ .navBar>ul>li {
+    display: inline-block;
+    padding: 20px;
+ }
+ .navBar>ul>li:hover{
+    background-color: red;
+ }
+ .navBar>ul>li>a {
+    color: #fff;
+    text-decoration: none;
+ }
+ .navbar>ul>li:hover a{
+    color: darkcyan;
+ }
+ .navBar>img {
+    height: 54px;
+ }
+ /* p10.html code */
+
+ .list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+ }
+ .list-marker-position>ol>li>a{
+    color: white;
+    text-decoration: none;
+ }
+ .list-marker-position>ol>li::marker{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ /* p11.html code */
+.list-icon>ul>li{
+    list-style-image: url(../images/pin.png);
+}
+/* p12.html code */
+
+.list-shorthand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    list-style: none inside url(../images/pin.png);
+}
+/* p13.html code */
+.empty-cell-table {
+    empty-cells: hide;
+}
