@@ -1,0 +1,41 @@
+.title{
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+
+}
+.title>h1{
+    color: yellow;
+
+}
+.title>p{
+    color: antiquewhite;
+    font-size: 15px;
+}
+.common{
+    background-color: grey;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.cssOutLine{
+    outline: 3px solid brown;
+}
+.cssOverflow>p{
+    text-align: justify;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    line-height: 2;
+    border: 2px solid black;
+    overflow: auto;
+    
+}
+.cssOverflow>p:last-child{
+    white-space: nowrap;
+    text-overflow: ellipsis
+    ;
+}

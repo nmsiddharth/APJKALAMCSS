@@ -65,3 +65,94 @@
 .hello>ol>li {
     list-style: none inside url(../images/pin.png);
 }
+
+/* p14 html code  */
+ .odd-even-table , .odd-even-table th, .odd-even-table td {
+    border: 2px solid black;
+    padding: 20px;
+    color: white;
+    border-collapse: collapse;
+ }
+ .odd-even-table {
+    background-color: teal;
+ }
+ .odd-even-table tr:nth-child(odd){
+    background-color: darkcyan;
+ }
+ .odd-even-table tr:nth-child(even){
+    background-color: darkolivegreen;
+ }
+ .odd-even-table th{
+    background-color: aqua;
+ }
+ .odd-even-table tr:hover{
+    background-color: brown;
+ }
+ .odd-even-table>caption{
+    color: blue;
+    font-weight: bold;
+    caption-side: bottom;
+
+ }
+ .odd-even-table td{
+    vertical-align:center;
+    height: 100px;
+ }
+ .odd-even-table{
+    width: 10%;
+    table-layout: fixed;
+    
+ }
+ .odd-even-table th, .odd-even-table td{
+    overflow: scroll;
+ }
+ *{
+    padding: 0%;
+    margin: 0%;
+ }
+ header{
+    background-color: #808080;
+ }
+ header>nav>ul{
+    list-style-type: none;
+    
+     float: right;
+ }
+ header>nav>ul>li{
+    display: inline-block;
+    padding: 20px;
+ }
+ header>nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+ }
+ header>nav>ul>li:hover {
+    background-color: red;
+ }
+ header>nav>ul>li:hover a{
+    color: black;
+ }
+ header>nav> img{
+    height: 54px;
+ }
+ .banner1{
+    background-color: bisque;
+ }
+ .bannerCommonClass{
+    color: #808080;
+    padding: 30px;
+    height: 60vh;
+    text-align: center;
+ }
+ .bannerCommonClass>h1{
+    font-size: 50px;
+ }
+ .bannerCommonClass>h1:hover{
+    color: #000;
+ }
+ .banner2 {
+    background-image: url(../images/image\ 1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
