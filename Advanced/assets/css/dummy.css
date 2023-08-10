@@ -39,3 +39,35 @@
     text-overflow: ellipsis
     ;
 }
+
+.cssPseudoClass>h1:hover{
+    color: red;
+}
+.cssPseudoClass>a:hover{
+    color: yellow;
+}
+.cssPseudoClass>a:link{
+    color:white;
+}
+.cssPseudoClass>a:visited{
+    color: red;
+}
+.cssPseudoClass>a:active{
+    color: green;
+}
+.cssPseudoElement>section:first-child::first-line{
+    background-color: red;
+}
+.cssPseudoElement>section:nth-child(2)::first-letter{
+    color: white;
+    background-color: blue;
+
+}
+.cssPseudoElement>section:last-child>h1::before{
+    content: "hekllof  ";
+    background-color: blue;
+}
+.cssPseudoElement>section:last-child>h1::after{
+    content: "  djssdl";
+    background-color: teal;
+}

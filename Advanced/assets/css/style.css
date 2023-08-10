@@ -258,3 +258,46 @@ line-height: 3cm; /* centimeter */
 .zIndex>.second:hover{
     z-index: 4;
 }
+
+
+/* p15.html code */
+.cssPseudoClass>h1{
+    color: grey;
+
+}
+.cssPseudoClass>h1:hover{
+    color: green;
+
+}
+.cssPseudoClass>a:link{
+    color: #fff;
+}
+.cssPseudoClass>a:active{
+    color: green;
+}
+.cssPseudoClass>a:hover{
+    color: yellow;
+}
+.cssPseudoClass>a:visited{
+    color: red;
+}
+
+/* p16 html code */
+.cssPseudoElement>section:first-child::first-line, .cssPseudoElement>section:nth-child(2)::first-letter{
+    background-color: red;
+    color: white;
+}
+.cssPseudoElement>section:nth-child(2)::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cssPseudoElement>section:last-child>h1::before{
+    content: "BEFORE H1";
+    background-color: yellow;
+    color: red;
+}
+.cssPseudoElement>section:last-child>h1::after{
+    content: " AFTER H1";
+    background-color: yellow;
+    color: red;
+}
